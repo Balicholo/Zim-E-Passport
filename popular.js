@@ -79,12 +79,4 @@ document.querySelector('.arrow-left3').addEventListener('click', () => {
 
 
 // DROP DOWN
-$
-(document).ready(function(){
-    const dropdownIcon = $('.dropdown-icon');
-const dropdownText = $('.dropdown-text');
 
-dropdownIcon.on('click', function(){
-    dropdownText.toggleClass('show');
-});
-});
