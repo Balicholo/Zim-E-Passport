@@ -49,14 +49,15 @@ ul li{
     .nav__menu{
         position: fixed;
         top: 0;
-        right: -70%;
+        right: -100%;
         background-color: rgba(73, 156, 211, 0.26);
-        width: 50%;
+        width: 80%;
         height: 100%;
         padding: 50px 0 0 20px;
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
         transition: right 1s;
+        z-index: 3;
     }
 .button-1{
     margin-bottom: 20px;
